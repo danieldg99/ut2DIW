@@ -12,6 +12,35 @@
         .clasecolor {
             color: blueviolet;
         }
+        
+        .vc1 {
+            color: darkgreen;
+        }
+        
+        .vc2 {
+            text-align: center;
+        }
+        
+        .colorfondo1 {
+            background-color: rgb(7, 46, 78);
+            color: aliceblue;
+        }
+        
+        .fondoimagen {
+            background-image: url('https://m.media-amazon.com/images/I/713SjHCjQcL._SS500_.jpg');
+            background-size: contain;
+            /* background-repeat: no-repeat; */
+            width: 100%;
+            height: 40vh;
+        }
+        
+        .fondoimagen2 {
+            background-image: url('https://i.kym-cdn.com/photos/images/newsfeed/001/504/739/5c0.jpg');
+            background-size: auto;
+            /* background-repeat: no-repeat; */
+            width: 100%;
+            height: 40vh;
+        }
     </style>
     <link rel="stylesheet" href="style.css">
     <!-- Hoja de estilos externas -->
@@ -29,6 +58,17 @@
     <h2>Vamos a probar las prioridades al aplicar estilos</h2>
     <p style="color: red;" class="clasecolor">Parrafo con la clase "clasecolor" y un estilo en linea con el color rojo</p>
     <p class="colorHojaExterna clasecolor">Parrafo para comprobar cual es la prioridad entre una clase interna y externa</p>
+
+    <h2>Aplicar varias clases a un elemento</h2>
+    <div class="vc1 vc2">Capa que cumple varias clases</div>
+
+    <h2>Color de fuente y fondo</h2>
+    <p class="colorfondo1">Esta capa tendra texto de color blanco y fondo azul</p>
+    <h3 style="color: #6a6a6a;">H3 con color establecido medicante codigo hexadecimal</h3>
+    <h2>Imagen de fondo</h2>
+    <div class="fondoimagen"></div>
+    <div class="fondoimagen2"></div>
+
 
 </body>
 
