@@ -1,0 +1,93 @@
+.contenedor {
+    width: 100%;
+}
+
+.eb {
+    border-style: dotted;
+}
+
+.ab {
+    border-width: 3px;
+}
+
+.cb {
+    border-color: red;
+}
+
+.dc {
+    width: 60%;
+    height: 200px;
+    margin: auto;
+}
+
+.bi {
+    border-left-color: aqua;
+    border-left-style: solid;
+    border-left-width: 4px;
+}
+
+.bir {
+    border-left: 4px solid blue;
+}
+
+.bd {
+    border-right-color: brown;
+    border-right-style: dashed;
+    border-right-width: 1px;
+}
+
+.bdr {
+    border-right: 1px dotted gold;
+}
+
+.bt {
+    border-top-color: greenyellow;
+    border-top-style: double;
+    border-top-width: 8px;
+}
+
+.btr {
+    border-top: 6px dashed pink;
+}
+
+.bb {
+    border-bottom-color: pink;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
+}
+
+.bbr {
+    border-bottom: 2px double red;
+}
+
+.brs {
+    border-radius: 15px;
+}
+
+.b {
+    border: 4px solid green;
+}
+
+.ci {
+    float: left;
+    width: 20%;
+    height: 300px;
+    border: 2px solid greenyellow;
+    box-sizing: border-box;
+}
+
+.cc {
+    float: left;
+    width: 60%;
+    height: 300px;
+    border: 2px solid gold;
+    box-sizing: border-box;
+}
+
+.cd {
+    float: left;
+    width: 20%;
+    height: 300px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
