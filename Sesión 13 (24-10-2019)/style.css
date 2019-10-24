@@ -1,0 +1,44 @@
+body {
+    min-width: 1000px;
+}
+
+@font-face {
+    font-family: 'liu';
+    src: url(../../LiuJianMaoCao-Regular.ttf);
+}
+
+.dcapa {
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+    font-family: 'liu';
+}
+
+.p1 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.pg {
+    padding: 50px;
+}
+
+.ar {
+    text-align: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.aj {
+    text-align: justify;
+}
