@@ -1,0 +1,42 @@
+ol.a {
+    list-style-position: outside;
+}
+
+ul.b {
+    list-style-position: inside;
+}
+
+ol,
+ul {
+    background-color: lightgreen;
+}
+
+li {
+    background-color: lightsalmon;
+}
+
+p,
+div {
+    padding: .3em;
+}
+
+div {
+    border: 1px solid black;
+    margin-top: 1em;
+}
+
+div p {
+    background-color: lightskyblue;
+}
+
+div>p {
+    background-color: lightgreen;
+}
+
+h4+h5 {
+    background-color: aquamarine;
+}
+
+h5~h6 {
+    background-color: yellowgreen;
+}
