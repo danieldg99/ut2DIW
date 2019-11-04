@@ -1,0 +1,7 @@
+div p:nth-child(odd) {
+    background-color: lightseagreen;
+}
+
+p {
+    margin-top: .5em;
+}
