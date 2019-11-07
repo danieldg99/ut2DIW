@@ -1,0 +1,30 @@
+.bg {
+    background-color: lightcoral;
+}
+
+.ib {
+    display: inline-block;
+    width: 600px;
+    height: 200px;
+}
+
+.in {
+    display: inline;
+}
+
+.none {
+    display: none;
+}
+
+.ima {
+    width: 60%;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+
+.vis {
+    width: 80%;
+    height: 300px;
+    border: 1px solid black;
+    visibility: hidden;
+}

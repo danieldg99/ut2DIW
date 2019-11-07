@@ -1,0 +1,49 @@
+h1,
+h2,
+h3,
+h4 {
+    margin-top: 2em;
+}
+
+.con {
+    width: 30%;
+    min-height: 200px;
+    background-color: lightcoral;
+    display: block;
+}
+
+.st {
+    position: static;
+    left: 900px;
+    top: 200px;
+}
+
+.re {
+    position: relative;
+    left: 300px;
+    top: 200px;
+}
+
+.re2 {
+    position: relative;
+}
+
+.ab {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    width: 20%;
+    height: 40%;
+    background-color: lightskyblue;
+}
+
+.fx {
+    position: fixed;
+    left: 1200px;
+    top: 600px;
+}
+
+.sy {
+    position: sticky;
+    top: 100px;
+}
