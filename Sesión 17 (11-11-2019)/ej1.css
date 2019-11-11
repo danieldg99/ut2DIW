@@ -1,0 +1,37 @@
+.caja {
+    width: 25%;
+    min-height: 200px;
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+.fli {
+    float: left;
+}
+
+.fld {
+    float: right;
+}
+
+.contenedor {
+    width: 90%;
+    min-height: 400px;
+    margin: 50px auto;
+    border: 1px solid plum;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.contenedormenu {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.contenedormenu div {
+    float: left;
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid lightcoral;
+}
