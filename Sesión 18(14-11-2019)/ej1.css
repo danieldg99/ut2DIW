@@ -1,0 +1,32 @@
+.flo8fr {
+    float: right;
+}
+
+.cc {
+    width: 70%;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.capa {
+    display: block;
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+
+.capa img {
+    opacity: 0.5;
+    width: 100%;
+}
+
+.capa p {
+    box-sizing: border-box;
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+    background-color: lightgray;
+    padding: .8em;
+}
